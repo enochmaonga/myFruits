@@ -15,7 +15,8 @@ for(String myFruitsItem : myFruits){
 }
     Integer total = 0;
     for(Integer price : myFruitsPrices){
-        total = total + price;
+//        total = total + price;
+        total += price;
     }
         System.out.println("Dear customer, your fruits will cost Kshs "+ total +"/=");
     }
